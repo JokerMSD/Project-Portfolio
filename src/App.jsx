@@ -26,7 +26,7 @@ function App() {
           <p className='Banner__description'>Uma frase interessante sobre mim</p>
           <button className='Banner__button'>Saiba mais</button>
           </div>
-          <img className='Banner__section--img' src='/src/assets/banner-img.png' />
+          <img className='Banner__section--img' src='src/assets/banner-img.png' />
         </section>
 
         <section className='About__section'>
