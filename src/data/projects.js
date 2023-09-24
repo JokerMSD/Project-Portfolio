@@ -9,10 +9,10 @@ export const projects = [
   },
   {
     name: "Projeto 3",
-    description: "Descrição do projeto",
+    description: "Atividade Praticando Props",
   },
   {
     name: "Projeto 4",
-    description: "Descrição do projeto",
+    description: "Atividade Praticando Loops",
   },
 ];
