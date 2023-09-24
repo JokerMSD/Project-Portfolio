@@ -2,6 +2,15 @@
 import { projects } from './data/projects';
 import { technologies } from './data/technologies';
 import { user , username } from './data/user.js';
+import headerImg from './assets/portfolio.png';
+import bannerImg from './assets/banner-img.png';
+import gitImg from './assets/git-icon.png';
+import whatsImg from './assets/whatsapp-icon.png';
+import linkdImg from './assets/linkedin-icon.png';
+
+
+
+
 
 function App() {
   //js
@@ -9,7 +18,7 @@ function App() {
   return (
     <>
       <header className='Header__section'>
-        <img className='Header__section--logo' src='/src/assets/portfolio.png' />
+        <img className='Header__section--logo' src={headerImg} />
         <div className='Header__section__container'>
             <p className='Header__section--links'>Sobre</p>
             <p className='Header__section--links'>Stack</p>
@@ -26,7 +35,7 @@ function App() {
           <p className='Banner__description'>Uma frase interessante sobre mim</p>
           <button className='Banner__button'>Saiba mais</button>
           </div>
-          <img className='Banner__section--img' src='src/assets/banner-img.png' />
+          <img className='Banner__section--img' src={bannerImg} />
         </section>
 
         <section className='About__section'>
@@ -60,7 +69,7 @@ function App() {
                 <h3 className='Projects__item--name'>{project.name}</h3>
                 <p className='Projects__item--description'>{project.description}</p>
                 <a className='Projects__item--link' href="">Saiba mais</a>
-                <img className='Projects__item--img' src="/src/assets/git-icon.png" alt="" />
+                <img className='Projects__item--img' src={gitImg} alt="" />
               </li>
             ))}
           </ul>
@@ -69,11 +78,11 @@ function App() {
 
       <footer className='Footer__container'>
         <h2 className='Footer__title'>Contato</h2>
-        <p className='Footer__description'>Todos os direitos reservados - José da Silva</p>
+        <p className='Footer__description'>Todos os direitos reservados - {user}</p>
         <div className='Footer__icons-container'>
-        <img className='Footer__img whatsapp' src="/src/assets/whatsapp-icon.png" alt="" />
-        <img className='Footer__img linkedin' src="/src/assets/linkedin-icon.png" alt="" />
-        <img className='Footer__img github' src="/src/assets/github-icon.png" alt="" />
+        <img className='Footer__img whatsapp' src={whatsImg} alt="" />
+        <img className='Footer__img linkedin' src={linkdImg} alt="" />
+        <img className='Footer__img github' src={gitImg} alt="" />
         </div>
       </footer>
     </>
