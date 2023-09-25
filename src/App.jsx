@@ -7,10 +7,7 @@ import bannerImg from './assets/banner-img.png';
 import gitImg from './assets/git-icon.png';
 import whatsImg from './assets/whatsapp-icon.png';
 import linkdImg from './assets/linkedin-icon.png';
-
-
-
-
+import devs from './assets/progammers.jpg';
 
 function App() {
   //js
@@ -68,7 +65,7 @@ function App() {
               <li className='Projects__item' key={index}>
                 <h3 className='Projects__item--name'>{project.name}</h3>
                 <p className='Projects__item--description'>{project.description}</p>
-                <a className='Projects__item--link' href="">Saiba mais</a>
+                <a className='Projects__item--link' href={devs}>Saiba mais</a>
                 <img className='Projects__item--img' src={gitImg} alt="" />
               </li>
             ))}
