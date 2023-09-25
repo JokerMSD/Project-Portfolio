@@ -1,4 +1,3 @@
-//imports
 import { projects } from './data/projects';
 import { technologies } from './data/technologies';
 import { user , username } from './data/user.js';
@@ -11,7 +10,7 @@ import linkdImg from './assets/linkedin-icon.png';
 import devs from './assets/progammers.jpg';
 
 function App() {
-  //js
+
 
   return (
     <>

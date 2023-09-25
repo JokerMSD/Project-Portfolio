@@ -313,18 +313,15 @@ button {
   }
 
   .Header__section__container {
-    gap: 1.5rem; /* Reduza o espaçamento entre os elementos */
-    font-size: 12px; /* Reduza o tamanho da fonte */
+    gap: 1.5rem;
+    font-size: 12px;
   }
-
-  /* .Header__button {
-  } */
 
   .Banner__section {
     width: 24rem;
     flex-direction: column;
-    margin-top: 3rem; /* Reduza a margem superior */
-    margin-bottom: 2rem; /* Reduza a margem inferior */
+    margin-top: 3rem; 
+    margin-bottom: 2rem; 
   }
 
   .Banner__section--img {
@@ -333,15 +330,15 @@ button {
   }
 
   .Banner__container {
-    margin-right: 0; /* Remova a margem direita */
+    margin-right: 0;
   }
 
   .Banner__welcome {
-    font-size: 2rem; /* Reduza o tamanho da fonte */
+    font-size: 2rem;
   }
 
   .Banner__description {
-    font-size: 0.875rem; /* Reduza o tamanho da fonte */
+    font-size: 0.875rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
   }
