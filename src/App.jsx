@@ -5,6 +5,7 @@ import { user , username } from './data/user.js';
 import headerImg from './assets/portfolio.png';
 import bannerImg from './assets/banner-img.png';
 import gitImg from './assets/git-icon.png';
+import gitHub from './assets/github-icon.png';
 import whatsImg from './assets/whatsapp-icon.png';
 import linkdImg from './assets/linkedin-icon.png';
 import devs from './assets/progammers.jpg';
@@ -79,7 +80,7 @@ function App() {
         <div className='Footer__icons-container'>
         <img className='Footer__img whatsapp' src={whatsImg} alt="" />
         <img className='Footer__img linkedin' src={linkdImg} alt="" />
-        <img className='Footer__img github' src={gitImg} alt="" />
+        <img className='Footer__img github' src={gitHub} alt="" />
         </div>
       </footer>
     </>
