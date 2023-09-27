@@ -1,5 +1,5 @@
 import React from 'react';
-import { projects } from './projectsScript';
+import { projects } from '../data/projectsScript';
 import devs from '../assets/progammers.jpg';
 import gitImg from '../assets/git-icon.png';
 

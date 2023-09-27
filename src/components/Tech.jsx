@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { technologies } from './technologies';
+import { technologies } from '../data/technologies';
 
 function Tech() {
   return (

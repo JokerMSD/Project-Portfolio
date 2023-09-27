@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from './data/Header';
-import Banner from './data/Banner';
-import About from './data/About';
-import Tech from './data/Tech';
-import Projects from './data/ProjectSection';
-import Footer from './data/Footer';
+import Header from '../src/components/Header';
+import Banner from '../src/components/Banner';
+import About from '../src/components/About';
+import Tech from '../src/components/Tech';
+import Projects from '../src/components/ProjectSection';
+import Footer from '../src/components/Footer';
 
 function App() {
 
