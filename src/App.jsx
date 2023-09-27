@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './components/Header/index';
-import Banner from './components/Banner/index';
-import About from './components/About/index';
-import Tech from './components/Tech/index';
-import Projects from './components/Project/index';
+import Banner from './components/BannerSection/index';
+import About from './components/AboutSection/index';
+import Tech from './components/TechSection/index';
+import Projects from './components/ProjectSection/index';
 import Footer from './components/Footer/index';
 
 function App() {
