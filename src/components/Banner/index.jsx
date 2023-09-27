@@ -1,6 +1,6 @@
 import React from 'react';
-import bannerImg from '../assets/banner-img.png';
-import { username } from '../data/user.js';
+import bannerImg from '../../assets/banner-img.png';
+import { username } from '../../data/user.js';
 
 function Banner() {
   return (

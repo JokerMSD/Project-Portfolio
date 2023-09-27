@@ -1,5 +1,5 @@
 import React from 'react';
-import headerImg from '../assets/portfolio.png';
+import headerImg from '../../assets/portfolio.png';
 
 function Header() {
   return (

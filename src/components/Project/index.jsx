@@ -1,7 +1,7 @@
 import React from 'react';
-import { projects } from '../data/projectsScript';
-import devs from '../assets/progammers.jpg';
-import gitImg from '../assets/git-icon.png';
+import { projects } from '../../data/projectsScript';
+import devs from '../../assets/progammers.jpg';
+import gitImg from '../../assets/git-icon.png';
 
 function Projects() {
   return (

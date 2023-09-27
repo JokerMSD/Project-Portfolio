@@ -1,9 +1,9 @@
 
 import React from 'react';
-import gitHub from '../assets/github-icon.png';
-import whatsImg from '../assets/whatsapp-icon.png';
-import linkdImg from '../assets/linkedin-icon.png';
-import { user } from '../data/user.js';
+import gitHub from '../../assets/github-icon.png';
+import whatsImg from '../../assets/whatsapp-icon.png';
+import linkdImg from '../../assets/linkedin-icon.png';
+import { user } from '../../data/user.js';
 
 function Footer() {
   return (
