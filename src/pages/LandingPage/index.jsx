@@ -1,7 +1,6 @@
-import About from "../../components/AboutSection";
+import { DefaultTemplate } from "../../components/DefaultTemplate";
+import About from "../../components/AboutSection/index";
 import Banner from "../../components/BannerSection";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 import Projects from "../../components/ProjectSection";
 import Tech from "../../components/TechSection";
 
@@ -9,14 +8,12 @@ import Tech from "../../components/TechSection";
 export const LandingPage = () => {
   return (
     <>
-      <Header />
-      <main>
+      <DefaultTemplate>
         <Banner />
         <About />
         <Tech />
         <Projects />
-      </main>
-      <Footer />
+      </DefaultTemplate>
     </>
   );
 };
