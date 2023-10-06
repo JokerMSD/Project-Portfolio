@@ -9,7 +9,7 @@ function Footer() {
   return (
     <footer className='Footer__container'>
       <h2 className='Footer__title'>Contato</h2>
-      <p className='Footer__description'>&copy 2023 Todos os direitos reservados - {user}</p>
+      <p className='Footer__description'>&copy; 2023, Todos os direitos reservados - {user}</p>
       <div className='Footer__icons-container'>
         <img className='Footer__img whatsapp' src={whatsImg} alt="WhatsApp" />
         <img className='Footer__img linkedin' src={linkdImg} alt="LinkedIn" />
