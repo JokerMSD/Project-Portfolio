@@ -1,18 +1,18 @@
 export const projects = [
   {
     name: "Projeto 1",
-    description: "Atividade Props Card Pessoas",
+    description: "Exemple 1",
   },
   {
     name: "Projeto 2",
-    description: "Atividade Praticando Children",
+    description: "exemple 2",
   },
   {
     name: "Projeto 3",
-    description: "Atividade Praticando Props",
+    description: "exemple 3",
   },
   {
     name: "Projeto 4",
-    description: "Atividade Praticando Loops",
+    description: "exemple 4",
   },
 ];
